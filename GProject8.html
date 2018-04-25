@@ -61,7 +61,7 @@
     <!-- Header -->
     <header class="head">
       <div class="content-section bg-primary text-white text-center font-awesome my-auto">
-        <h2 class="mb-5">Robotic Control of a Surgical Laser Waveguide using ABB Robot</h2>
+        <h2 class="mb-5">Adaptive Trajectory Control for a Robotic Arm Subject to Varying Load </h2>
         <!-- <h3 class="mb-1">
           <em>Aishwary Jagetia</em> <em>Animesh Nema</em> <em>Onkar Trivedi</em>
         </h3> -->
@@ -77,13 +77,15 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h2 class="mb-4">Abstract</h2>
-            <p class="lead mb-5">Automated tissue ablation offers many advantages
-               over free hand surgical procedures as it is faster, more accurate,
-               much efficient and offers great dexterity, particularly for complex ablations.
-               This paper discusses the design, modeling and control of the ABB IRB 120
-               robot that will perform the task using a surgical laser waveguide.
-               The laser waveguide will be attached to ABB IRB 120 end effector
-               and will follow a desired trajectory with a given velocity to accomplish the task.</p>
+            <p class="lead mb-5">The focus of this paper is to implement an
+              adaptive trajectory tracking control on a robotic arm manipulator
+              such that the robot arm can maintain its desired trajectory while
+              carrying objects of different masses. The control law has to be
+              updated in a way that it adjusts the gain such that the output
+              does not change with changing parameters of the dynamic model
+              (mass of the object,in this instance). Subsequently, the robot
+              arm can be made to follow a given trajectory while also accommodating
+              for the change in mass of the object it is carrying. </p>
             <!-- <a class="active btn btn-primary btn-x2 mb-4" href="Documents/Jagetia,Aishwary_CV.pdf" target="_blank">RESUME</a> -->
           </div>
         </div>
@@ -99,6 +101,8 @@
         </div>
       </div>
     </section>
+
+    <iframe src='https://onedrive.live.com/embed?cid=1DDAD83867A4B5B4&resid=1DDAD83867A4B5B4%21783&authkey=AHiPBNjVyyqiEkQ&em=2&wdAr=1.7777777777777777' width='610px' height='367px' frameborder='0'>This is an embedded <a target='_blank' href='https://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.</iframe>
 
     <!-- Services -->
     <!-- <section class="content-section bg-primary text-white text-center" id="portfolio">
